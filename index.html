@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: "3.25rem",
+            },
+            fontFamily : {
+              inter: ['Inter'],
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body>
+    <h1 class="text-6xl font-bold text-center my-10">Mari belajar Tailwind CSS</h1>
+    <section class="mb-10 bg-gradient-to-r from-blue-700 to-white p-10">
+      <h2 class="text-center font-bold text-5xl">spacing</h2>
+      <div class="border border-red-500">margin</div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="mb-10 text-center font-bold text-5xl">Sizing</h2>
+      <div class="w-32 h-32">Kotak 1</div>
+    </section>
+
+    <section class="mb-96 font-inter max-w-3xl mx-auto ">
+      <h2 class="mb-2 text-4xl font-bold ">Belajar Typography pada tailwind css</h2>
+      <div class="mb-4 text-lg">By <a href="" class="text-gray-600 font-bold">Naufal Fauzan</a> , 22 Nov 2004</div>
+      <p class="mb-4">
+        Lorem ipsum, dolor sit amet <a href="" class="underline font-semibold">consectetur</a> adipisicing elit. Commodi, deserunt temporibus dolorem dolorum accusantium quas culpa veniam exercitationem odio cumque quasi officiis, reiciendis natus, labore sed id? Repellendus culpa fugit a laboriosam laborum expedita, quae nobis ut saepe, illum ex ratione aut. Enim, fugiat possimus repudiandae explicabo obcaecati nemo reprehenderit!
+      </p>
+      <blockquote class="mb-4 italic font-thin text-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eos impedit reiciendis quidem dolores. Excepturi iure ducimus dolore sit fugiat.
+      </blockquote>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis quo hic a ut laboriosam, reprehenderit officia facere officiis deserunt, atque ab! Aliquam veniam nihil facilis. Ratione repudiandae molestias quaerat?
+      </p class="mb-4">
+    </section>
+  </body>
+</html>
