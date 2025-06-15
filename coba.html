@@ -24,11 +24,109 @@
             fontFamily: {
               inter: ["Inter"],
             },
+            colors: {
+              wpu: "#bada55",
+            },
           },
         },
       };
     </script>
     <title class="">Belajar Tailwind CSS</title>
+    <style type="text/tailwindcss">
+      /* * {
+        border: 1px solid red;
+      } */
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1 class="text-8xl font-bold text-center my-10">
+      Mari Belajar
+      <span
+        class="bg-gradient-to-r from-blue-300 to-teal-200 bg-clip-text text-transparent"
+        >TailwindCSS</span
+      >
+    </h1>
+    <section
+      class="mb-10 bg-gradient-to-tr from-indigo-200 via-red-400 to-yellow-300"
+    >
+      <h2 class="text-3xl text-center">Spacing</h2>
+      <div class="m-4">Margin</div>
+      <div class="p-4">Padding</div>
+    </section>
+
+    <section class="mb-24 bg-green-400">
+      <h2 class="text-3xl text-center">Sizing</h2>
+      <div class="w-32 h-32 bg-wpu">Kotak 1</div>
+    </section>
+
+    <section class="font-inter max-w-3xl mx-auto">
+      <h2 class="mb-2 text-4xl font-bold">
+        Belajar Mengenai Typography pada tailwindcss
+      </h2>
+      <div class="mb-4 text-lg text-gray-500">
+        By <a href="" class="text-gray-700 font-semibold">Naufal Fauzan</a> 2024
+      </div>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet
+        <a href="" class="underline font-semibold text-blue-500">consectetur</a>
+        adipisicing elit. Totam ex quia quos est iusto, molestias nisi corrupti!
+        Delectus voluptas sunt distinctio mollitia minima exercitationem
+        similique tempore earum iste, aliquid doloribus, inventore porro sit
+        corporis quisquam voluptatum, impedit at corrupti totam expedita laborum
+        autem labore tempora. Non culpa iure quo sit!
+      </p>
+      <blockquote class="mb-4 italic font-thin text-xl">
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+        accusantium facilis sequi itaque modi inventore quam, nobis nesciunt
+        amet ad."
+      </blockquote>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        inventore vel eveniet laborum suscipit doloribus esse, nihil aperiam
+        reprehenderit eaque repudiandae repellendus amet ratione quidem omnis
+        modi cupiditate! Amet, fugit?
+      </p>
+    </section>
+
+    <div
+      class="max-w-xl h-96 bg-[#bada55] mx-auto mt-[42] overflow-scroll bg-fixed"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8MXwwfHx8MA%3D%3D');
+      "
+    >
+      <p class="p-5 text-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+        sapiente suscipit ad et sequi quibusdam quaerat commodi officia deserunt
+        totam atque nihil cum, perferendis id corrupti! Consequatur, aut quod.
+        Animi nemo, soluta corrupti iste consequatur nihil, quaerat repellat
+        vero laudantium, laborum placeat non dolore asperiores repudiandae.
+        Atque, quam earum perferendis mollitia ducimus voluptate officia,
+        dignissimos debitis, id minus velit. Eum repellat voluptas eveniet
+        molestias, impedit molestiae perspiciatis at! Saepe excepturi itaque
+        dolores, illum tempora animi vel fugiat assumenda consequuntur maiores
+        culpa. Aliquid aspernatur harum neque saepe repudiandae nihil, quod odit
+        itaque sed nisi sint unde aperiam culpa possimus quisquam quidem soluta
+        in minima nam. Eligendi quis, eos, maiores aliquam dolore dolor iste qui
+        rerum laboriosam numquam laudantium! Est sit necessitatibus, reiciendis
+        sunt iusto consequuntur quisquam amet vitae natus illum error ea
+        provident facere velit illo. Ducimus enim ab excepturi unde laudantium
+        iste nesciunt! Earum similique esse veritatis magni corporis laudantium
+        architecto, cumque facilis eligendi asperiores illum eos? Est quasi qui
+        veniam officia atque, nulla cumque, tempora nemo, ipsa natus iure
+        aspernatur. Voluptates voluptas a ducimus aperiam iusto, officia
+        consequatur possimus cumque, expedita alias recusandae placeat iste
+        laudantium excepturi explicabo cum optio repellendus beatae impedit
+        dicta? Quam obcaecati dolorem tenetur impedit?
+      </p>
+    </div>
+
+    <div
+      class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl border-8 border-slate-500 shadow-2xl shadow-slate-950 flex"
+      style="background-image: url(./img/1.avif)"
+    >
+      <div class="w-[200px] h-[200px] bg-white/30 m-auto backdrop-blur-md rounded-full"></div>
+    </div>
+
+    <div class="mb-96"></div>
+  </body>
 </html>
